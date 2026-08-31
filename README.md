@@ -26,8 +26,8 @@ Para que o Linux consiga se comunicar com as portas USB e ler os smartcards, os 
 
 Cada fabricante exige seu próprio middleware ou biblioteca `.so` instalada no sistema (geralmente localizadas em `/usr/lib/`).
 
-*   **SafeNet 5100:** Requer o pacote via AUR (`paru -S safenetauthenticationclient`). Arquivo: `/usr/lib/libeToken.so`
-*   **ePass2003:** (paru -S epass2003) Arquivo: `/usr/lib/libcastle.so` (ou `libeps2003csp11.so`)
+*   **SafeNet 5100:** Requer o pacote via AUR (`paru -S sac-gui`). Arquivo: `/usr/lib/libeToken.so`
+*   **ePass2003:** (sudo pacman -S opensc pcsc-tools) Arquivo: `/usr/lib/libcastle.so` (ou `libeps2003csp11.so`)
 *   **Token GD (SafeSign):** (paru -S safesignidentityclient) Arquivo: `/usr/lib/libaetpkss.so.3`
 
 **Resolução de Bloqueio (Passo Crítico):** 
