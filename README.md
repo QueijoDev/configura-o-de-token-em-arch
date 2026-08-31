@@ -51,7 +51,7 @@ Para evitar conflitos de leitura cruzada, dedicaremos o Firefox exclusivamente p
 4. Clique em **Carregar**.
 5. Preencha o Nome do Módulo (ex: `Feitian ePass2003`).
 6. Em Nome do arquivo do módulo, insira o caminho absoluto:
-   `/usr/lib/libcastle.so` (ou o arquivo correspondente).
+   `/usr/lib/pkcs11/opensc-pkcs11.so` (ou o arquivo correspondente).
 7. Clique em OK. O status deverá confirmar a presença do hardware e o botão "Entrar" será liberado.
 
 ---
